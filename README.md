@@ -161,7 +161,6 @@ cd manim && manim -pql equivalence.py SAEKMeansEquivalence
 
 **core theory:**
 - hess, s., duivesteijn, w., & mocanu, d. (2020). [softmax-based classification is k-means clustering](https://arxiv.org/abs/2001.01987). arXiv. — *proves softmax top-1 = k-means assignment*
-- cho, m., et al. (2022). [dkm: differentiable k-means clustering layer](https://openreview.net/forum?id=J_gDq4xURo). ICLR. — *proves the reverse: k-means as attention*
 
 **sparse autoencoders:**
 - gao, l., et al. (2024). [scaling and evaluating sparse autoencoders](https://arxiv.org/abs/2406.04093). OpenAI. — *topk saes with hard feature selection*
