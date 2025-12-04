@@ -77,7 +77,7 @@ if your sae weights *are* the normalized centroids, then:
 ```
 argmax_i ReLU(⟨cᵢ, x⟩)  =  argmin_i ‖x - cᵢ‖²
          ↑                         ↑
-     sae top-1               k-means
+     sae top-1                  k-means
 ```
 
 the two methods select the same index.
@@ -96,6 +96,16 @@ key theorems:
 - `relu_mono` — relu preserves ordering for positive values
 - `sae_kmeans_equivalence` — the main equivalence result
 - `sae_kmeans_with_constant_bias` — extension to constant bias terms
+
+**verification log:**
+```
+✔ [2267/2269] Replayed Mathlib.Analysis.InnerProductSpace.PiL2
+✔ [2268/2269] Built equivalence (2.2s)
+✔ [2269/2269] Ran «sae-kmeans»/equivalence:default
+Build completed successfully (2269 jobs).
+```
+
+full build log: [`lean/build.log`](lean/build.log)
 
 ---
 

@@ -1,7 +1,7 @@
-name = "lean-prover"
+name = "sae-kmeans"
 version = "0.1.0"
 keywords = ["math"]
-defaultTargets = ["lean-prover"]
+defaultTargets = ["equivalence"]
 
 [leanOptions]
 pp.unicode.fun = true # pretty-prints `fun a ↦ b`
@@ -15,4 +15,5 @@ scope = "leanprover-community"
 rev = "v4.26.0-rc2"
 
 [[lean_lib]]
-name = "lean-prover"
+name = "equivalence"
+srcDir = "lean"
