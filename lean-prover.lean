@@ -1,0 +1,1 @@
+import «lean-prover».equivalence
